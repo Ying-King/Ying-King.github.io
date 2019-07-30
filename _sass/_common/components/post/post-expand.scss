@@ -12,6 +12,7 @@
   .post-body {
     pre {
       padding: 10px;
+
       .gutter pre {
         padding-right: 10px;
       }
@@ -21,6 +22,7 @@
       margin-left: 0px;
       margin-right: 0px;
       padding: 0;
+
       .gutter pre {
         padding-right: 10px;
       }
@@ -29,30 +31,38 @@
 }
 
 .posts-expand .post-body {
-  @include desktop() { text-align: justify; }
+  @include desktop() {
+    text-align: justify;
+  }
 
 
-  h2, h3, h4, h5, h6 {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     padding-top: 10px;
 
-    .header-anchor{
+    .header-anchor {
       float: right;
       margin-left: 10px;
       color: $grey-light;
       border-bottom-style: none;
       visibility: hidden;
 
-      &:hover{
+      &:hover {
         color: inherit;
       }
     }
 
-    &:hover .header-anchor{
+    &:hover .header-anchor {
       visibility: visible;
     }
   }
 
-  ul li { list-style: circle; }
+  ul li {
+    list-style: circle;
+  }
 
   img {
     box-sizing: border-box;
@@ -62,4 +72,74 @@
   }
 }
 
-.posts-expand .fancybox img { margin: 0 auto; }
+.posts-expand .fancybox img {
+  margin: 0 auto;
+}
+
+.project {
+  position: relative;
+  width: 150px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 26px;
+  color: $black-deep;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.project-detail {
+  .project-item {
+    margin-top: 50px;
+    padding: 0 20px;
+
+    .project-content {
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10);
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+      z-index: 10;
+
+      .project-title {
+        font-size: 16px;
+        font-weight: bold;
+        color: $black-deep;
+        letter-spacing: 1.14px;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid $blue;
+      }
+
+      .create-time {
+        margin-top: 5px;
+        font-size: 14px;
+        color: $black-light;
+        letter-spacing: 1px;
+      }
+
+      .description {
+        margin-top: 10px;
+        text-align: initial;
+        font-size: 14px;
+        color: $black-dim;
+        letter-spacing: 0;
+        line-height: 24px;
+      }
+    }
+
+    .link-to {
+      width: 150px;
+      display: block;
+      background-image: linear-gradient(-130deg, $blue-light 0%, $blue 100%);
+      border-radius: 5px;
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      color: $black-dim;
+      letter-spacing: 1.14px;
+      line-height: 3;
+      z-index: 5;
+    }
+  }
+
+}

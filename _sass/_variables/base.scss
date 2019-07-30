@@ -8,6 +8,7 @@
 // colors for use across theme.
 // --------------------------------------------------
 
+$white        : #fff;
 $whitesmoke   : #f5f5f5;
 $gainsboro    : #eee;
 $gray-lighter : #ddd;
@@ -19,11 +20,13 @@ $black-light  : #555;
 $black-dim    : #333;
 $black-deep   : #222;
 $red          : #ff2a2a;
+$blue-light   : #d1e8ed;
 $blue-bright  : #87daff;
-$blue         : #0684bd;
+$blue         : #6a9fb5;
 $blue-deep    : #262a30;
 $orange       : #fc6423;
-
+$green        : #daecd7;
+$green-light  : #e7f2dd;
 
 
 // Scaffolding
@@ -207,7 +210,7 @@ $gap-between-main-and-footer    : 100px;
 // Headband
 // --------------------------------------------------
 $headband-height                : 3px;
-$headband-bg                    : $black-deep;
+$headband-bg                    : $green;
 
 
 
@@ -232,7 +235,7 @@ $subtitle-color                 : $grey-dark;
 
 // Menu
 $menu-link-border               : transparent;
-$menu-link-hover-border         : $black-deep;
+$menu-link-hover-border         : $grey-light;
 
 
 
@@ -268,22 +271,22 @@ $read-more-border-radius        : 0;
 // Variables for sidebar section elements.
 // --------------------------------------------------
 $sidebar-nav-color                    : $black-light;
-$sidebar-nav-hover-color              : $whitesmoke;
+$sidebar-nav-hover-color              : $white;
 $sidebar-highlight                    : $blue-bright;
 
 $site-author-image-padding            : 2px;
-$site-author-image-width              : 96px;
+$site-author-image-width              : 110px;
 $site-author-image-height             : auto;
 $site-author-image-border-width       : 2px;
 $site-author-image-border-color       : $black-dim;
 
 $site-author-name-margin              : 5px 0 0;
-$site-author-name-color               : $whitesmoke;
+$site-author-name-color               : $black-light;
 $site-author-name-align               : center;
 $site-author-name-weight              : normal;
 
 $site-description-font-size           : 14px;
-$site-description-color               : $grey-dark;
+$site-description-color               : $black-light ;
 $site-description-margin-top          : 5px;
 $site-description-align               : center;
 
@@ -312,6 +315,7 @@ $b2t-opacity                  : 1;
 $b2t-position-bottom          : -100px;
 $b2t-position-bottom-on       : 19px;
 $b2t-position-right           : 30px;
+$b2t-position-left            : 30px;
 $b2t-font-size                : 12px;
 $b2t-color                    : white;
 $b2t-bg-color                 : $black-deep;

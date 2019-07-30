@@ -1,4 +1,22 @@
 // Sidebar Navigation
+.sidebar-nav2 {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  margin-bottom: 30px;
+  text-align: left;
+
+  .sidebar-nav2-item {
+    display: block;
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding: 8px 15px;
+    font-size: 16px;
+
+    &.active, &:hover, &:focus {
+      background-color: $green-light;
+      border-color: transparent;
+    }
+  }
+}
+
 
 .sidebar-nav {
   margin: 0 0 20px;

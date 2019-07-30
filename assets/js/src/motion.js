@@ -77,7 +77,7 @@ $(document).ready(function () {
   sidebarToggleLines.push(sidebarToggleLine2nd);
   sidebarToggleLines.push(sidebarToggleLine3rd);
 
-  var SIDEBAR_WIDTH = '320px';
+  var SIDEBAR_WIDTH = '280px';
   var SIDEBAR_DISPLAY_DURATION = 200;
 
   var sidebarToggleMotion = {
@@ -92,7 +92,7 @@ $(document).ready(function () {
       $(document)
         .on('sidebar.isShowing', function () {
           NexT.utils.isDesktop() && $('body').velocity('stop').velocity(
-            {paddingRight: SIDEBAR_WIDTH},
+            {paddingLeft: SIDEBAR_WIDTH},
             SIDEBAR_DISPLAY_DURATION
           );
         })
@@ -119,6 +119,8 @@ $(document).ready(function () {
       var self = this;
 
       sidebarToggleLines.close();
+
+      self.toggleEl[0].style.left = 290 + 'px';
 
       this.sidebarEl.velocity('stop').velocity({
           width: SIDEBAR_WIDTH
@@ -147,10 +149,12 @@ $(document).ready(function () {
       this.sidebarEl.trigger('sidebar.isShowing');
     },
     hideSidebar: function () {
-      NexT.utils.isDesktop() && $('body').velocity('stop').velocity({paddingRight: 0});
+      NexT.utils.isDesktop() && $('body').velocity('stop').velocity({paddingLeft: 0});
       this.sidebarEl.find('.motion-element').velocity('stop').css('display', 'none');
       this.sidebarEl.velocity('stop').velocity({width: 0}, {display: 'none'});
 
+      this.toggleEl[0].style.left = 30 + 'px';
+      
       sidebarToggleLines.init();
 
       this.sidebarEl.removeClass('sidebar-active');

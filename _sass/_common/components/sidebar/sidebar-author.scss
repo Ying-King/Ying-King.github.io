@@ -4,7 +4,7 @@
   padding: $site-author-image-padding;
   max-width: $site-author-image-width;
   height: $site-author-image-height;
-  border: $site-author-image-border-width solid $site-author-image-border-color;
+  // border: $site-author-image-border-width solid $site-author-image-border-color;
 
   /* 头像圆形 */
   border-radius: 50%;
@@ -33,7 +33,6 @@
   0% {
     -webkit-transform: rotateZ(0deg);
   }
-
   100% {
     -webkit-transform: rotateZ(-360deg);
   }
@@ -43,7 +42,6 @@
   0% {
     -moz-transform: rotateZ(0deg);
   }
-
   100% {
     -moz-transform: rotateZ(-360deg);
   }
@@ -53,7 +51,6 @@
   0% {
     transform: rotateZ(0deg);
   }
-
   100% {
     transform: rotateZ(-360deg);
   }

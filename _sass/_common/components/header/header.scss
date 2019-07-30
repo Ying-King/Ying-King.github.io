@@ -1,4 +1,7 @@
-.header { background: $head-bg; }
+.header { 
+  background: url(../../../assets/images/header-bg.png);
+  background-size: cover;
+}
 
 .header-inner { position: relative; }
 
