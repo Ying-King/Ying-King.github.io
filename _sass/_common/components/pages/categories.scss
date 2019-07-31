@@ -1,7 +1,12 @@
 .category-all-page {
   .category-all-title { text-align: center; }
 
-  .category-all { margin-top: 20px; }
+  .category-all { 
+    margin-top: 20px;
+    ul li {
+      list-style: circle;
+    }
+  }
 
   .category-list {
     margin: 0;
@@ -9,7 +14,10 @@
     list-style: none;
   }
 
-  .category-list-item { margin: 5px 10px; }
+  .category-list-item { 
+    margin: 5px 10px; 
+    font-size: 16px;
+  }
 
   .category-list-count {
     color: $grey;

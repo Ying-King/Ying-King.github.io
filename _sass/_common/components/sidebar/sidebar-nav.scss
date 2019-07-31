@@ -40,7 +40,9 @@
   color: $sidebar-highlight;
   border-bottom-color: $sidebar-highlight;
 
-  &:hover { color: $sidebar-highlight; }
+  &:hover { 
+    color: $sidebar-highlight; 
+  }
 }
 
 .sidebar-panel { display: none; }

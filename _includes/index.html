@@ -2,29 +2,32 @@
 {% if site.paginate > 0 %}{% assign posts = paginator.posts %}{% endif %}
 
 <section id="posts" class="posts-expand">
-  {% for post in posts %}
-  {% assign is_index = true %}
-  <!-- include _macro/post.html -->
-  {% endfor %}
-</section>
-
-<section>
-  <div class="project">
-    <p>个人作品</p>
-  </div>
-
-  <div class="project-detail">
-    {% for pro in site.project %}
-    <div class="project-item">
-      <div class="project-content">
-        <img src="{{ pro.img }}" alt="">
-        <p class="project-title">{{ pro.title }}</p>
-        <p class="create-time">{{ pro.create-time }}</p>
-        <p class="description">{{ pro.description }}</p>
-        <a href="{{ pro.href }}" class="link-to">查看demo</a>
-      </div>
+  <div class="tags">
+    <div class="title">
+      标 签
     </div>
-    {% endfor %}
+    <div class="tags-contain">
+      {% for tag in site.tag %}
+      <span class="tags-item">{{ tag.name }}</span>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="project">
+    <div class="title">
+      作 品
+    </div>
+    <div class="project-detail">
+      {% for pro in site.project %}
+      <div class="project-item">
+        <div class="project-content">
+          <img src="{{ pro.img }}" alt="">
+          <p class="project-title">{{ pro.title }}</p>
+          <p class="create-time">{{ pro.create-time }}</p>
+          <p class="description">{{ pro.description }}</p>
+          <a href="{{ pro.href }}" class="link-to">在线demo</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
-<!-- {% include _partials/pagination.html %} -->

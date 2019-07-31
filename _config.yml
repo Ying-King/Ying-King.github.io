@@ -208,20 +208,29 @@ font:
 project:
 - title: 原生JS：移动端音乐播放器
   img:
-  create-time: 2019.06 - 2019.06
+  create-time: 2019.06
   description: 该作品使用了MVC设计模式，SqlServer数据库，Servlet、jquery,ajax的技术上制作的一个动态购物网站，实现了在数据库查询出商品显示在页面上，实现了购物车与购买功能，并对数据库进行相应操作。 
-  href: https://www.baidu.com
+  href: https://ying-king.github.io/ying-music/dist/index.html
 - title: Vue2：在线商城
   img:
-  create-time: 2019.07 - 2019.07
+  create-time: 2019.07
   description: 该作品使用了MVC设计模式，SqlServer数据库，Servlet、jquery,ajax的技术上制作的一个动态购物网站，实现了在数据库查询出商品显示在页面上，实现了购物车与购买功能，并对数据库进行相应操作。 
-  href: https://www.baidu.com
+  href: 
 - title: Paxxal后台搭建
   img:
-  create-time: 2014.8 - 2014.9
+  create-time: 2019.07
   description: 该作品使用了MVC设计模式，SqlServer数据库，Servlet、jquery,ajax的技术上制作的一个动态购物网站，实现了在数据库查询出商品显示在页面上，实现了购物车与购买功能，并对数据库进行相应操作。 
-  href: https://www.baidu.com
+  href: 
 
+# ---------------------------------------------------------------
+# Tags Settings
+# ---------------------------------------------------------------
+tag:
+- name: 爱记录
+- name: 爱规范
+- name: 爱简洁
+- name: 前端萌新
+- name: 持续进击
 
 # ---------------------------------------------------------------
 # Sidebar Settings

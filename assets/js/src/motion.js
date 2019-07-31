@@ -149,11 +149,13 @@ $(document).ready(function () {
       this.sidebarEl.trigger('sidebar.isShowing');
     },
     hideSidebar: function () {
+
       NexT.utils.isDesktop() && $('body').velocity('stop').velocity({paddingLeft: 0});
-      this.sidebarEl.find('.motion-element').velocity('stop').css('display', 'none');
-      this.sidebarEl.velocity('stop').velocity({width: 0}, {display: 'none'});
 
       this.toggleEl[0].style.left = 30 + 'px';
+
+      this.sidebarEl.find('.motion-element').velocity('stop').css('display', 'none');
+      this.sidebarEl.velocity('stop').velocity({width: 0}, {display: 'none'});
       
       sidebarToggleLines.init();
 

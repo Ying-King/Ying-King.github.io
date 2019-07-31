@@ -271,8 +271,8 @@ $read-more-border-radius        : 0;
 // Variables for sidebar section elements.
 // --------------------------------------------------
 $sidebar-nav-color                    : $black-light;
-$sidebar-nav-hover-color              : $white;
-$sidebar-highlight                    : $blue-bright;
+$sidebar-nav-hover-color              : $black-deep;
+$sidebar-highlight                    : black;
 
 $site-author-image-padding            : 2px;
 $site-author-image-width              : 110px;
@@ -299,12 +299,12 @@ $site-state-item-border-color         : $black-dim;
 
 $toc-link-color                       : $grey-dark;
 $toc-link-border-color                : $black-light;
-$toc-link-hover-color                 : $grey-light;
+$toc-link-hover-color                 : $black-light;
 $toc-link-hover-border-color          : $grey-light;
-$toc-link-active-color                : $sidebar-highlight;
-$toc-link-active-border-color         : $sidebar-highlight;
-$toc-link-active-current-color        : $sidebar-highlight;
-$toc-link-active-current-border-color : $sidebar-highlight;
+$toc-link-active-color                : $black-deep;
+$toc-link-active-border-color         : $black-deep;
+$toc-link-active-current-color        : $black-deep;
+$toc-link-active-current-border-color : $black-deep;
 
 
 // Components
