@@ -138,17 +138,17 @@
 
 
 
-  .tags-contain {
-    text-align: center;
-  
-    span {
-      display: inline-block;
-      margin: 20px;
-      padding: 0 10px;
-      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10);
-      border-radius: 5px;
-    }
+.tags-contain {
+  text-align: center;
+
+  span {
+    display: inline-block;
+    margin: 20px;
+    padding: 0 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
   }
+}
 
 
 .project .title,
@@ -162,7 +162,13 @@
   text-align: center;
 }
 
-.project, .tags {
+.more {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.project, .more,
+.tags {
   animation: show 3s ease-in;
   -webkit-animation: show 3s ease-in;
 }

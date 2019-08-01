@@ -15,6 +15,7 @@
 .posts-collapse {
   position: relative;
   z-index: $zindex-1;
+  margin-top: 40px;
 
   &::after {
     content: " ";
