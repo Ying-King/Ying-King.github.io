@@ -4,7 +4,7 @@
 <section id="posts" class="posts-expand">
   <div class="tags">
     <div class="title">
-      标 签
+      个 人 标 签
     </div>
     <div class="tags-contain">
       {% for tag in site.tag %}
@@ -14,21 +14,22 @@
   </div>
   <div class="project">
     <div class="title">
-      作 品
+      作 品 展 示
     </div>
     <div class="project-detail">
       {% for pro in site.project %}
       <div class="project-item">
         <div class="project-content">
-          <img src="{{ pro.img }}" alt="">
-          <p class="project-title">{{ pro.title }}</p>
+          <!-- <img src="{{ pro.img }}" alt=""> -->
+          <p class="project-title"><span class="fa fa-fw fa-{{ pro.class | default: 'globe' | downcase }}"></span>&nbsp;{{ pro.title }}</p>
           <p class="create-time">{{ pro.create-time }}</p>
           <p class="description">{{ pro.description }}</p>
-          <a href="{{ pro.href }}" class="link-to">在线demo</a>
+          <a href="{{ pro.demoHref }}" class="link"><span class="fa fa-fw fa-link"></span>Demo</a>
+          <a href="{{ pro.href }}" class="link"><span class="fa fa-fw fa-code"></span>源代码</a>
         </div>
       </div>
       {% endfor %}
     </div>
   </div>
-  <p class="more">更多个人信息，请移至“关于”页面，感谢关注</p>
+  <p class="more">更多个人信息，请移至<a href="/about/" class="link"><span class="fa fa-fw fa-star"></span>关于 </a> 页面，感谢关注</p>
 </section>

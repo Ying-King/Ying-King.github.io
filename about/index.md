@@ -3,6 +3,7 @@ layout: page
 type: about
 title: 个人简历
 ---
+
 ## 联系方式
 
 * 手机：13861027528
@@ -24,18 +25,19 @@ title: 个人简历
 
 ## 技能清单
 
-* HTML&CSS:
-  - 遵循W3C规范,写出规范化的代码
-  - 熟悉HTML5,CSS3,,CSS3动画效果.盒模型
-  - 熟悉移动端响应式,flex,BFC
-  - 了解canvas
-* JavaScript：
-  - 熟悉js原生代码,事件,DOM操作.js原型链,js面向对象编程,闭包,ajax
-  - 能够适应js+jQery实现常见效果
-* 前端框架：Bootstrap / Vue2
-* 前端工具：Bower / SaSS
-* 数据库：MySQL
-* 版本管理：Git
+* **HTML & CSS :**
+  * 遵循W3C规范，能够编写语义化的 HTML，模块化的 CSS
+  * 熟悉HTML5、CSS3动画效果， 了解Canvas
+  * 熟悉移动端响应式、Flex布局、BFC
+  * 能够使用 Sass 高效编写 CSS
+  * 对浏览器 DOM 加载和渲染有较好理解
+* **JavaScript ：**
+  * 熟悉 js 原生代码
+  * 熟悉 ES6 / jQuery
+* **数据请求：** 掌握 Ajax / Axios / Fetch ，Jsonp跨域请求
+* **前端框架：** Bootstrap / Vue / React + Redux
+* **构建工具：** 能够使用 Parcel / Webpack 进行前端工程的构建
+* **版本管理：** 熟悉 Git 常用命令
 
 ---
 

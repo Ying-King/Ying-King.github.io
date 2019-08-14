@@ -2,11 +2,27 @@
 
 .posts-expand {
   padding-top: 40px;
+
+  .project-detail {
+    flex-wrap: nowrap;
+    
+    .project-item {
+      flex: 1;
+    }
+  }
 }
 
 @media (max-width: 767px) {
   .posts-expand {
     margin: 0 20px;
+
+    .project-detail {
+      flex-wrap: wrap;
+
+      .project-item {
+        flex: auto;
+      }
+    }
   }
 
   .post-body {
@@ -80,6 +96,8 @@
   margin-top: 50px;
 
   .project-detail {
+    display: flex;
+
     .project-item {
       margin-top: 50px;
       padding: 0 20px;
@@ -116,21 +134,11 @@
           letter-spacing: 0;
           line-height: 24px;
         }
-      }
 
-      .link-to {
-        width: 150px;
-        display: block;
-        background-image: linear-gradient(-130deg, $blue-light 0%, $blue 100%);
-        border-radius: 5px;
-        margin: 0 auto;
-        text-align: center;
-        text-decoration: none;
-        font-size: 16px;
-        color: $black-dim;
-        letter-spacing: 1.14px;
-        line-height: 3;
-        z-index: 5;
+        a {
+          margin-left: 30px;
+          font-size: 16px;
+        }
       }
     }
   }
@@ -140,6 +148,7 @@
 
 .tags-contain {
   text-align: center;
+  margin-top: 20px;
 
   span {
     display: inline-block;
@@ -160,6 +169,38 @@
   color: $black-deep;
   letter-spacing: 3px;
   text-align: center;
+
+  &::before {
+    position: absolute;
+    top: -5px;
+    left: 100px;
+  }
+
+  &::after {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+  }
+}
+
+.project .title {
+  &::before {
+    content: url(/assets/images/icon2.png);
+  }
+
+  &::after {
+    content: url(/assets/images/icon1.png);
+  }
+}
+
+.tags .title {
+  &::before {
+    content: url(/assets/images/icon4.png);
+  }
+
+  &::after {
+    content: url(/assets/images/icon3.png);
+  }
 }
 
 .more {
@@ -173,6 +214,9 @@
   -webkit-animation: show 3s ease-in;
 }
 
+a.link {
+  color: $blue;
+}
 
 @keyframes show {
   0% {

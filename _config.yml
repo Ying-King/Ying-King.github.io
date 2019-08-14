@@ -207,20 +207,17 @@ font:
 # ---------------------------------------------------------------
 project:
 - title: 原生JS：移动端音乐播放器
-  img:
+  class: play-circle
   create-time: 2019.06
-  description: 该作品使用了MVC设计模式，SqlServer数据库，Servlet、jquery,ajax的技术上制作的一个动态购物网站，实现了在数据库查询出商品显示在页面上，实现了购物车与购买功能，并对数据库进行相应操作。 
-  href: https://ying-king.github.io/ying-music/dist/index.html
-- title: Vue2：在线商城
-  img:
+  description: 该作品使用了原生JS制作了一个简易的移动端音乐播放器，实现了播放/暂停音乐、加载在线歌词并且自动定位、和对当前音乐进行快进等相应操作。 
+  demoHref: https://ying-king.github.io/ying-music/dist/index.html
+  href: https://github.com/Ying-King/ying-music
+- title: Vue：移动端在线商城
+  class: shopping-cart
   create-time: 2019.07
-  description: 该作品使用了MVC设计模式，SqlServer数据库，Servlet、jquery,ajax的技术上制作的一个动态购物网站，实现了在数据库查询出商品显示在页面上，实现了购物车与购买功能，并对数据库进行相应操作。 
-  href: 
-- title: Paxxal后台搭建
-  img:
-  create-time: 2019.07
-  description: 该作品使用了MVC设计模式，SqlServer数据库，Servlet、jquery,ajax的技术上制作的一个动态购物网站，实现了在数据库查询出商品显示在页面上，实现了购物车与购买功能，并对数据库进行相应操作。 
-  href: 
+  description: 该作品使用技术栈：vue2.9 + vue-router + sass + vue-awesome-swiper + vue-lazyload + axios + jsonp + fastclick + babel-polyfill，制作了一个移动端在线购物商城，实现了首页加载热门商品（图片懒加载）、分类页数据获取显示、搜索页关键词搜索以及保存删除历史记录等功能。 
+  demoHref: https://ying-king.github.io/ying-mall/dist/#/
+  href: https://github.com/Ying-King/ying-mall
 
 # ---------------------------------------------------------------
 # Tags Settings
