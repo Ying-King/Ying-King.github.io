@@ -37,6 +37,7 @@ title: 个人简历
 * **数据请求：** 掌握 Ajax / Axios / Fetch ，Jsonp跨域请求
 * **前端框架：** Bootstrap / Vue / React + Redux
 * **构建工具：** 能够使用 Parcel / Webpack 进行前端工程的构建
+* **第三方API：** 能够使用 高德地图
 * **版本管理：** 熟悉 Git 常用命令
 
 ---

@@ -209,7 +209,7 @@ project:
 - title: 原生JS：移动端音乐播放器
   class: play-circle
   create-time: 2019.06
-  description: 该作品使用了原生JS制作了一个简易的移动端音乐播放器，实现了播放/暂停音乐、加载在线歌词并且自动定位、和对当前音乐进行快进等相应操作。 
+  description: 该作品使用技术栈：ES6 + sass + flex、rem布局 + parcel，制作了一个简易的移动端音乐播放器，实现了播放/暂停音乐、加载在线歌词并且自动定位、上一曲/下一曲和对当前音乐进行快进等功能。 
   demoHref: https://ying-king.github.io/ying-music/dist/index.html
   href: https://github.com/Ying-King/ying-music
 - title: Vue：移动端在线商城
