@@ -19,13 +19,21 @@
     <div class="project-detail">
       {% for pro in site.project %}
       <div class="project-item">
-        <div class="project-content">
-          <!-- <img src="{{ pro.img }}" alt=""> -->
+        <div class="project-img map">
+          <img class="img2" src="{{ pro.img2 }}">
+          <img class="img1" src="{{ pro.img1 }}">
+        </div>
+        <div class="project-content map">
           <p class="project-title"><span class="fa fa-fw fa-{{ pro.class | default: 'globe' | downcase }}"></span>&nbsp;{{ pro.title }}</p>
           <p class="create-time">{{ pro.create-time }}</p>
           <p class="description">{{ pro.description }}</p>
-          <a href="{{ pro.demoHref }}" class="link"><span class="fa fa-fw fa-link"></span>Demo</a>
-          <a href="{{ pro.href }}" class="link"><span class="fa fa-fw fa-code"></span>源代码</a>
+          <div class="link-container">
+            <a href="{{ pro.demoHref }}" class="link"><span class="fa fa-fw fa-link"></span>Demo</a>
+            <a href="{{ pro.href }}" class="link"><span class="fa fa-fw fa-code"></span>Code</a>
+            <a class="link qr"><span class="fa fa-fw fa-qrcode"></span>QR
+              <div class="qrPage"></div>
+            </a>
+          </div>
         </div>
       </div>
       {% endfor %}

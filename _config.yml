@@ -207,17 +207,29 @@ font:
 # ---------------------------------------------------------------
 project:
 - title: 原生JS：移动端音乐播放器
+  img1: /assets/images/music-1.png
+  img2: /assets/images/music-2.png
   class: play-circle
   create-time: 2019.06
-  description: 该作品使用技术栈：ES6 + sass + flex、rem布局 + parcel，制作了一个简易的移动端音乐播放器，实现了播放/暂停音乐、加载在线歌词并且自动定位、上一曲/下一曲和对当前音乐进行快进等功能。 
+  description: 该作品使用技术栈：ES6 + sass + flex、rem布局 + parcel，制作了一个简易的移动端音乐播放器。<br/>实现了播放/暂停音乐、加载在线歌词并且自动定位、上一曲/下一曲和对当前音乐进行快进等功能。 
   demoHref: https://ying-king.github.io/ying-music/dist/index.html
   href: https://github.com/Ying-King/ying-music
 - title: Vue：移动端在线商城
+  img1: /assets/images/mall-1.png
+  img2: /assets/images/mall-2.png
   class: shopping-cart
   create-time: 2019.07
-  description: 该作品使用技术栈：vue2.9 + vue-router + sass + vue-awesome-swiper + vue-lazyload + axios + jsonp + fastclick + babel-polyfill，制作了一个移动端在线购物商城，实现了首页加载热门商品（图片懒加载）、分类页数据获取显示、搜索页关键词搜索以及保存删除历史记录等功能。 
+  description: 该作品使用技术栈：vue2.9 + vue-cli + vue-router + sass + vue-awesome-swiper + vue-lazyload + axios + jsonp + fastclick + babel-polyfill，制作了一个移动端在线购物商城。<br/>实现了首页加载热门商品（图片懒加载）、分类页数据获取显示、搜索页关键词搜索以及保存删除历史记录等功能。 
   demoHref: https://ying-king.github.io/ying-mall/dist/#/
   href: https://github.com/Ying-King/ying-mall
+- title: Vue：移动端旅游网站
+  img1: /assets/images/travel-1.png
+  img2: /assets/images/travel-2.png
+  class: plane
+  create-time: 2019.08
+  description: 该作品使用技术栈：vue2.9 + vue-cli + vue-router + vuex + sass + vue-awesome-swiper + better-scroll + fastclick + babel-polyfill，制作了一个移动端旅游网站。<br/>实现了首页展示热门榜单、城市分类页搜索选择城市、详情页景点图片画廊展示以及票价数据获取等功能。 
+  demoHref: https://ying-king.github.io/ying-travel/dist/#/home
+  href: https://github.com/Ying-King/ying-travel
 
 # ---------------------------------------------------------------
 # Tags Settings
